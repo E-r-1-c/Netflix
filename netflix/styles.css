@@ -1,0 +1,40 @@
+html, .heading > a{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(16, 16, 16);
+    color: white;
+    text-decoration: none;
+}
+
+.heading{
+    display: flex;
+    height: 130px;
+    padding-left: 0px;
+}
+
+.heading > a{
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+    padding-top: 38px;
+    margin-right: 0px;
+}
+
+.logo{
+    height: 100px;
+}
+
+.myList{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.listVideos{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.thumbnail, .thumbnail a{
+    height: 200px;
+    width: 350px;
+}
+
